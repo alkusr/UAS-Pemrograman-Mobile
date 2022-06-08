@@ -1,7 +1,7 @@
 # UAS-Pemrograman-Mobile
 
 Aplikasi UAS Pemrograman Mobile 2022
-[API Informasi di indonesia]]
+[API Informasi di indonesia]
 - Ahmad Dany Adrian (2010817210019)
 - Muhammad Alkausar (2010817210008)
 - Ferry Roland (2010817210016)
