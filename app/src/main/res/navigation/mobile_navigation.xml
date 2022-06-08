@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uasAPI.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_gunung"
+        android:name="com.example.uasAPI.ui.gunung.ListGunungFragment"
+        android:label="ListGunungFragment" >
+        <action
+            android:id="@+id/action_listGunungFragment_to_detailGunungFragment"
+            app:destination="@id/detailGunungFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailGunungFragment"
+        android:name="com.example.uasAPI.ui.gunung.DetailGunungFragment"
+        android:label="DetailGunungFragment" />
+
+    <fragment
+        android:id="@+id/nav_pahlawan"
+        android:name="com.example.uasAPI.ui.pahlawan.ListPahlawanFragment"
+        android:label="ListPahlawanFragment" >
+        <action
+            android:id="@+id/action_listPahlawanFragment_to_detailPahlawanFragment"
+            app:destination="@id/detailPahlawanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPahlawanFragment"
+        android:name="com.example.uasAPI.ui.pahlawan.DetailPahlawanFragment"
+        android:label="DetailPahlawanFragment" />
+
+    <fragment
+        android:id="@+id/nav_penerbit"
+        android:name="com.example.uasAPI.ui.penerbit.ListPenerbitFragment"
+        android:label="ListPenerbitFragment" >
+        <action
+            android:id="@+id/action_listPenerbitFragment_to_detailPenerbitFragment"
+            app:destination="@id/detailPenerbitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPenerbitFragment"
+        android:name="com.example.uasAPI.ui.penerbit.DetailPenerbitFragment"
+        android:label="DetailPenerbitFragment" />
+</navigation>
