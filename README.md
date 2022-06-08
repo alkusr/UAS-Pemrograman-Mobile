@@ -9,9 +9,7 @@ Aplikasi UAS Pemrograman Mobile 2022
 # Installation
 1. Clone project ini lewat android studio version control (Usahakan versi android studio terbaru)
 
-'''
-$git clone https://github.com/alkusr/UAS-Pemrograman-Mobile.git
-'''
+<i>git clone https://github.com/alkusr/UAS-Pemrograman-Mobile.git</i>
 
 3. Build Project
 4. Pastikan emulator sudah aktif atau sudah menghubungkan perangkat keras anda ke komputer atau laptop
