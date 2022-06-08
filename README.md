@@ -12,7 +12,7 @@ Aplikasi UAS Pemrograman Mobile 2022
 <i>git clone https://github.com/alkusr/UAS-Pemrograman-Mobile.git</i>
 
 3. Build Project
-4. Pastikan emulator sudah aktif atau sudah menghubungkan perangkat keras anda ke komputer atau laptop
+4. Pastikan emulator sudah aktif atau sudah menghubungkan perangkat smartphone anda ke komputer atau laptop
 5. Lakukan "run pada project"
 6. Aplikasi akan tampil dan berjalan pada layar
 
@@ -20,5 +20,3 @@ Aplikasi UAS Pemrograman Mobile 2022
 - [API Pahlawan Indonesia] Menampilkan daftar pahlawan indonesia beserta informasi detail lainnya
 - [API Gunung Indonesia] Menampilkan daftar gunung indonesia beserta informasi detail lainnya
 - [API Penerbit Indonesia] Menampilkan daftar penerbit indonesia beserta informasi detail lainnya
-
-n/b untuk mengganti daerah pada aplikasi ini bisa dengan mengganti kordinat lokasi di dalam tiap file fragment aplikasi.
