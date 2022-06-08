@@ -6,6 +6,13 @@ Aplikasi UAS Pemrograman Mobile 2022
 - Muhammad Alkausar (2010817210008)
 - Ferry Roland (2010817210016)
 
+# Video Preview
+
+
+https://user-images.githubusercontent.com/68933036/172689569-1002c7a2-d293-41cc-9363-9a16903ca72b.mp4
+
+
+
 # Installation
 1. Clone project ini lewat android studio version control (Usahakan versi android studio terbaru)
 
